@@ -1,0 +1,81 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-image: url('pic.jpg'); /* Add background image */
+    background-size: cover; /* Cover the entire body */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    margin: 0;
+    padding: 0;
+    color: #4a4a4a; /* Darker text color for better readability */
+}
+
+.container {
+    width: 90%;
+    max-width: 600px; /* Adjusted max-width for better mobile experience */
+    margin: 40px auto; /* Added top and bottom margin for spacing */
+    padding: 30px;
+    background: white; /* Ensure the container has a white background */
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15); /* More pronounced shadow for depth */
+    border-radius: 10px; /* More pronounced rounded corners */
+    transition: transform 0.3s, box-shadow 0.3s; /* Enhanced transition for scaling and shadow */
+}
+
+.container:hover {
+    transform: translateY(-3px); /* Lift effect on hover */
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em; /* Larger font size for emphasis */
+    color: #0056b3; /* Professional blue color */
+    margin-bottom: 20px; /* Spacing below heading */
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px; /* Increased spacing for better separation */
+    font-weight: bold; /* Bold labels for emphasis */
+    font-size: 1.1em; /* Slightly larger font for labels */
+    color: #343a40; /* Darker color for labels */
+}
+
+input {
+    width: 100%;
+    padding: 12px; /* Increased padding for a better feel */
+    margin-bottom: 15px; /* Increased bottom margin for better spacing */
+    border: 1px solid #ced4da; /* Subtle border */
+    border-radius: 5px; /* Slightly rounded input corners */
+    font-size: 1em; /* Consistent font size */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transition for border color on focus */
+}
+
+input:focus {
+    border-color: #0056b3; /* Highlight border color on focus */
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.5); /* Subtle shadow on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: #dc3545; /* Bootstrap red color */
+    color: white;
+    border: none;
+    border-radius: 5px; /* More rounded corners for buttons */
+    font-size: 1.1em; /* Larger font size for buttons */
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s, box-shadow 0.3s; /* Smooth transition for background color, scaling, and shadow */
+}
+
+button:hover {
+    background: #c82333; /* Darker red for hover effect */
+    transform: translateY(-1px); /* Lift effect on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Subtle shadow on hover */
+}
+
+button:active {
+    transform: translateY(1px); /* Slightly shift down on active */
+    box-shadow: none; /* Remove shadow on active */
+}

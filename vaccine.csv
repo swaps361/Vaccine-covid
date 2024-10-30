@@ -1,0 +1,7 @@
+AGE,GENDER,HEALTH CONDITION,LOCATION,VACCINE_TYPE,VACCINATION_DATE,ADVERSE_REACTION
+22,Male,Diabetes,Maharashtra,Covaxin,15-04-2024,None
+32,Female,None,Tamil Nadu,Covishield,16-04-2024,Fatigue
+55,Female,Hypertension,Karnataka,Sputnik V,17-04-2024,Headache
+28,Male,Obesity,Gujarat,Covaxin,18-04-2024,Fever
+22,Male,None,Rajasthan,Sputnik V,20-04-2024,Chills
+48,Male,Hypertension,West Bengal,Covishield,22-04-2024,Sore Arm
